@@ -1,4 +1,4 @@
-.container{
+.container-fluid{
     background-color: black;
     display:flex;
     justify-content: space-between;
@@ -19,7 +19,7 @@ img{
 }
 /*---vista mobile---*/
 @media(max-width:575px){
-.container{
+.container-fluid{
     flex-direction: column;
 }
 .contact{
